@@ -16,7 +16,7 @@ def load_model_from_drive(file_id):
     output = 'model.pkl'
     gdown.download(url, output, quiet=False)
 
-    # Fastai 모델 로드
+     Fastai 모델 로드
     learner = load_learner(output)
     return learner
 
